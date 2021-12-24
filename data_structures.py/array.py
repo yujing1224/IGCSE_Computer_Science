@@ -1,7 +1,7 @@
 #array
 from array import array
 #create a new array using built in array method
-test_scores = array("i", [90, 70,40,60,98,93])
+test_scores = array("i", [90,70,40,60,98,93])
 
 #add another test scores to end of our array (append = add)
 test_scores.append(100)
