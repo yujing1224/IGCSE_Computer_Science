@@ -1,0 +1,5 @@
+nested_list = [[1,2,3,], [3,5,7], [1,4,7]]
+#this runs in 0(n^2) time becuase for each input there is a nested operation
+for list in nested_list:
+    for num in list:
+        print(num)
